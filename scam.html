@@ -5,7 +5,6 @@
   </head>
   <body>
     <img
-      id="link"
       src="https://miro.medium.com/max/1400/1*mdcu3Ku9r44HMtraHUqu5g.jpeg"
       alt=""
     />
@@ -13,7 +12,7 @@
 </html>
 
 <script>
-  document.getElementById("link").addEventListener("click", function () {
+  document.querySelector('body>img').addEventListener("click", function () {
     alert(
       "The website you are going to visit may harm your computer. Do you still want to redirect?"
     );
